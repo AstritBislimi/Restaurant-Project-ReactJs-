@@ -1,0 +1,47 @@
+.packageSection {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 70px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.pckImgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.packageH2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.pckBtn {
+  background-color: white;
+  padding: 10px 30px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+@media (max-width: 1000px) {
+  .packageSection {
+    gap: 50px;
+  }
+  .packageH2 {
+    font-size: 30px;
+  }
+  .pckImgs {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .pckImgs .col-3 {
+    width: 50%;
+  }
+}

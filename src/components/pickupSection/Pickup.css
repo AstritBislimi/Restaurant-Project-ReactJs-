@@ -1,0 +1,49 @@
+.pickup {
+    background-color: black;
+    padding: 50px 0;
+    color: white;
+    font-family: 'Inter';
+font-style: normal;
+
+}
+
+
+.pickUpContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+}
+
+.col-10 {
+    margin: 0 auto
+}
+
+.pickupP {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.pickupBtn {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+@media (max-width:1000px) {
+    .pickupBtn {
+        font-size: 20px;
+    }
+    .pickupP{
+        font-size: 18px;
+        text-align: center;
+        line-height: 26px;
+    }
+    .pickUpContainer{
+        flex-direction: column;
+        gap:20px
+    }
+}

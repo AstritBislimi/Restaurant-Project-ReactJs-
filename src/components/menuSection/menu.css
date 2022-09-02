@@ -1,0 +1,44 @@
+.menuSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.menuSection img {
+  width: 40%;
+}
+
+.menuText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-right: 10%;
+}
+
+.menuP {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+@media (max-width: 1000px) {
+    .menuSection{
+        flex-direction: column;
+        padding: 70px 0;
+    }
+    .menuSection img {
+        display: none;
+    }
+    .menuText{
+        margin-right: 0;
+        width: 90%;
+        text-align: center;
+    }
+}

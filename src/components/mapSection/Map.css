@@ -1,0 +1,29 @@
+.mapSection {
+   
+    color: white;
+    text-align: center;
+}
+
+.maptext {
+    padding: 40px 0;
+    background-color: #BF181C;
+    font-family: 'Inter';
+    font-weight: 600;
+font-style: normal;
+}
+.mapH2 {
+    font-size: 40px;
+    padding: 10px 0;
+}
+.mapDesc {
+    font-size: 30px;
+}
+
+@media (max-width:1000px) {
+    .mapH2 {
+        font-size: 30px;
+    }
+    .mapDesc {
+        font-size: 22px;
+    }
+}

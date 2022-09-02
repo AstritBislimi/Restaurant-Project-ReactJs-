@@ -1,0 +1,66 @@
+.storySection {
+  font-family: "Inter";
+  font-style: normal;
+  margin: 0 auto;
+}
+
+.storyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.defaultH2 {
+  color: red;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.underline {
+  margin-top: 7px;
+  width: 15%;
+  height: 3px;
+  background-color: black;
+}
+
+.storyP {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.storyBtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  border: none;
+}
+
+.certification {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (max-width: 1000px) {
+    .storyContainer{
+        flex-direction: column;
+        text-align: center;
+    }
+    img.col-2 {
+        width: 30%;
+    }
+    .underline {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .storyBtn{
+        font-size: 20px;
+    }
+}
